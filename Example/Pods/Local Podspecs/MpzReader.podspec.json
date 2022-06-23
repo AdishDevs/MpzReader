@@ -1,0 +1,72 @@
+{
+  "name": "MpzReader",
+  "version": "0.1.0",
+  "summary": "A short description of MpzReader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mapalagama93/MpzReader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mapalagama93": "dev.hasitha@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mapalagama93/MpzReader.git",
+    "tag": "0.1.0"
+  },
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "MpzReader/Classes/**/*",
+  "vendored_frameworks": [
+
+  ],
+  "resource_bundles": {
+    "MpzReader": [
+      "MpzReader/Assets/**/*",
+      "MpzReader/Resources/**/*"
+    ]
+  },
+  "resources": [
+    "MpzReader/Assets/**/*",
+    "MpzReader/Resources/**/*"
+  ],
+  "dependencies": {
+    "SQLite.swift": [
+
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "ZIPFoundation": [
+
+    ],
+    "R2Shared": [
+
+    ],
+    "R2Streamer": [
+
+    ],
+    "R2Navigator": [
+
+    ],
+    "CryptoSwift": [
+
+    ],
+    "Fuzi": [
+
+    ],
+    "Minizip": [
+
+    ],
+    "Lightbox": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

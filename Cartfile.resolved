@@ -1,0 +1,4 @@
+github "cezheng/Fuzi" "3.1.2"
+github "dexman/Minizip" "1.4.0"
+github "mapalagama93/r2-navigator-swift" "61fa45dace3fe6f63d87f216ac582568061ca7e7"
+github "readium/r2-shared-swift" "ef446a7ab96910ab78381841465c5d104310b87e"

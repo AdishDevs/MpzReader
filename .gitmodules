@@ -1,0 +1,3 @@
+[submodule "r2-navigator-swift"]
+	path = r2-navigator-swift
+	url = https://github.com/mapalagama93/r2-navigator-swift.git

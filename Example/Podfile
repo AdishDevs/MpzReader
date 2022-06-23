@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'MpzReader_Example' do
+  pod 'GCDWebServer', :git => 'https://github.com/edrlab/GCDWebServer.git', :tag => '3.6.2'
+  pod 'R2Shared', :git => 'https://github.com/mapalagama93/r2-shared-swift.git', :branch => 'develop'
+  pod 'R2Streamer', :git => 'https://github.com/mapalagama93/r2-streamer-swift.git', :branch => 'develop'
+  pod 'R2Navigator', :path => '../r2-navigator-swift'
+  pod 'MpzReader', :path => '../'
+
+  target 'MpzReader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

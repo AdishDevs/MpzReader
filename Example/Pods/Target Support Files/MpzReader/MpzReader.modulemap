@@ -1,0 +1,6 @@
+framework module MpzReader {
+  umbrella header "MpzReader-umbrella.h"
+
+  export *
+  module * { export * }
+}
