@@ -54,4 +54,5 @@ TODO: Add long description of the pod here.
    s.dependency 'Fuzi'
    s.dependency 'Minizip'
    s.dependency 'Lightbox'
+   s.dependency 'ScreenShield'
 end
